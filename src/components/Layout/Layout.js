@@ -3,7 +3,7 @@ import Aux from '../../hoc/Auxiliary';
 
 const Layout = (props) => (
     <Aux>
-        <div></div>
+        <div>ToolBar, SideDrawer (tiroir latéral), Backdrop (toile de fond)</div>
         <main>
             {props.children}
         </main>
