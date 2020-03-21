@@ -3,6 +3,9 @@ import PropTypes from 'prop-types';
 
 import classes from './BurgerIngredient.module.css';
 
+//Here we have made 'classed based' whereas it should be a 'functional component' 
+//this is because of the 'PropType' module which only work for class based components 
+
 class BurgerIngredients extends Component {
     render() {
         let ingredient = null;
