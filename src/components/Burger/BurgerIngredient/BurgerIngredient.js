@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
-
 import classes from './BurgerIngredient.module.css';
+//INGREDIENTS A AFFICHER EN FONCTION DU CHOIX
 
 //Here we have made 'classed based' whereas it should be a 'functional component' 
 //this is because of the 'PropType' module which only work for class based components 
