@@ -56,5 +56,7 @@ BurgerIngredients.propTypes = {
     type: PropTypes.string.isRequired
 };
 
+//to be sure the props is of type string and required 
+
 export default BurgerIngredients;
 
